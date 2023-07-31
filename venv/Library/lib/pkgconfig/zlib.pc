@@ -1,0 +1,13 @@
+prefix=E:/Best_Project/Diamond_Price_Prediction/venv/Library
+exec_prefix=E:/Best_Project/Diamond_Price_Prediction/venv/Library
+libdir=E:/Best_Project/Diamond_Price_Prediction/venv/Library/lib
+sharedlibdir=E:/Best_Project/Diamond_Price_Prediction/venv/Library/lib
+includedir=E:/Best_Project/Diamond_Price_Prediction/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
